@@ -1,0 +1,38 @@
+.promo {
+    position: relative;
+    min-height: 1000px;
+    background: url("../../img/promo.jpg") no-repeat center / cover;
+    padding: 631px 0 0 0;
+    &__container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__info {
+        clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+        background-color: $main-color;
+        width: 624px;
+        height: 369px;
+        padding: 70px;
+    }
+    &__title {
+        color: #000;
+        font-family: Archangelsk;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 63px;
+        margin-bottom: 25px;
+    }
+    &__btn {
+        display: inline-flex;
+        background-color: #000;
+        padding: 19px 50px;
+        a {
+            color: $main-color;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+        }
+    }
+}
