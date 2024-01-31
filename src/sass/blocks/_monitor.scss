@@ -1,0 +1,82 @@
+.monitor {
+    position: relative;
+    padding: 70px 0 70px 0;
+    background: #F8F200;
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        background-image: url("../../img/design2.png");
+        background-repeat: repeat-x;
+    }
+    &__content {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img-2 {
+        display: flex;
+        margin-top: 26px;
+        justify-content: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 26px;
+    }
+
+    &__title {
+        color: #000;
+        font-family: Archangelsk;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+    &__descr {
+        width: 624px;
+        height: 125px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        margin-bottom: 25px;
+    }
+    &__features {
+        li {
+            padding-left: 40px;
+            color: #000;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+            list-style-type: none;
+            margin-bottom: 26px;
+        }
+    }
+    &__btn {
+        width: 194px;
+        height: 59px;
+        background-color: #000;
+        height: 59px;
+        padding: 15px;
+        text-align: center;
+        color: #F8F200;
+        font-size: 18px;
+        font-weight: 700;
+        &:hover {
+            text-decoration: none;
+            color: #F8F200;
+        }
+    }
+}

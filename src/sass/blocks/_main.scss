@@ -1,7 +1,7 @@
-.promo {
+.main {
     position: relative;
     min-height: 1000px;
-    background: url("../../img/promo.jpg") no-repeat center / cover;
+    background: url("../../img/main.jpg") no-repeat center / cover;
     padding: 631px 0 0 0;
     &__container{
         display: flex;
@@ -33,6 +33,9 @@
             font-style: normal;
             font-weight: 700;
             line-height: 40px;
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }

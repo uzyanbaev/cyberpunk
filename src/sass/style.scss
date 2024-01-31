@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Archangelsk';
+    font-family: Archangelsk;
     src: url('../fonts/ofont.ru_Archangelsk.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -9,6 +9,7 @@
 @import 'base/variables';
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -33,6 +34,9 @@ h1 {
 }
 
 @import 'blocks/header';
-@import 'blocks/promo';
+@import 'blocks/main';
 @import 'blocks/city';
 @import 'blocks/game';
+@import 'blocks/monitor';
+@import 'blocks/buy';
+@import 'blocks/footer';
