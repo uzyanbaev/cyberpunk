@@ -17,7 +17,7 @@
 - HTML, SCSS, Gulp, Git
 
 ### Demo:
-- [uzyanbaev-dev.ru/cyberpunk](#) (https://uzyanbaev-dev.ru/cyberpunk)
+- [uzyanbaev-dev.ru/cyberpunk](https://uzyanbaev-dev.ru/cyberpunk)
 
 ## Getting Started
 ```
