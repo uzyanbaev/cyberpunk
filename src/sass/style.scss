@@ -4,7 +4,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @import 'libs/bootstrap-reboot.min';
 @import 'base/variables';
 
@@ -15,8 +14,7 @@
 }
 
 .container {
-    max-width: 1352px;
-    padding: 0 36px;
+    width: 1352px;
     margin: 0 auto;
 }
 
@@ -40,3 +38,4 @@ h1 {
 @import 'blocks/monitor';
 @import 'blocks/buy';
 @import 'blocks/footer';
+@import 'blocks/media';

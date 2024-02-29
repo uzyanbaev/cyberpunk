@@ -1,0 +1,262 @@
+@media (max-width: 1600px) {
+	.container {
+		width: 1000px;
+	}
+    .city {
+        &__img {
+            display: flex;
+            flex-direction: column;
+            &_left {
+                display: flex;
+                &-1, &-2 {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            &_right-1 {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .game {
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .monitor {
+        &__content {
+            flex-direction: column;
+        }
+    }
+    .buy {
+        &__img {
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+		width: 750px;
+	}
+    .main {
+        &__info {
+            margin-right: 0;
+        }
+    }
+    .city {
+        &__descr {
+            width: 100%;
+        }
+    }
+    .game {
+        &__descr {
+            width: 100%;
+        }
+    }
+    .monitor {
+        &__descr {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: 761px) {
+    .container {
+		width: 550px;
+	}
+    .header {
+        &__wrapper {
+            flex-direction: column;
+        }
+    }
+    .main {
+        &__info {
+            width: 100%;
+        }
+        &__title {
+            font-size: 42px;
+            line-height: 40px;
+        }
+        &__btn {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .city {
+        &__descr {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .game {
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+        &__form {
+            width: 100%;
+        }
+        &__content {
+            flex-direction: column-reverse;
+        }
+    }
+    .monitor {
+        &__content {
+            flex-direction: column;
+        }
+        &__img-1 {
+            img {
+                width: 100%;
+            }
+        }
+        &__features {
+            margin-top: 40px;
+        }
+    }
+    .buy {
+        &__wrapper {
+            margin-left: 20px;
+            width: 100%;
+        }
+        &__title {
+            width: 100px;
+            font-size: 32px;
+        }
+        &__set {
+            width: 250px;
+        }
+        &__info {
+            li {
+                font-size: 14px;
+                padding-left: 30px;
+            }
+        }
+        &__content {
+            width: 100%;
+            height: 100%;
+        }
+        &__title {
+            width: 100%;
+        }
+        &__img {
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .footer {
+        &__top {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+		width: 320px;
+	}
+    .header {
+        &__social {
+            &-item {
+                margin-right: 25px;
+            }
+        }
+    }
+    .main {
+        &__info {
+            margin-right: 0;
+            height: 250px;
+            padding: 50px;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__btn {
+            padding: 10px;
+        }
+    }
+    .city {
+        &__title {
+            font-size: 32px;
+        }
+        &__descr {
+            font-size: 16px;
+            height: 100%;
+        }
+    }
+    .game {
+        &__title {
+            background-position: left top;
+            font-size: 32px;
+            padding-left: 0;
+            padding-top: 150px;
+        }
+        &__descr {
+            width: 100%;
+            font-size: 16px;
+        }
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+        &__content {
+            flex-direction: column-reverse;
+        }
+        &__form {
+            width: 100%;
+            &-text {
+                font-size: 16px;
+            }
+        }
+    }
+    .monitor {
+        &__img-2 {
+            img {
+                width: 100%;
+            }
+        }
+        &__title {
+            margin-top: 30px;
+            font-size: 26px;
+        }
+        &__features {
+            li {
+                    background-size: auto !important;
+            }
+        }
+    }
+    .buy {
+        &__content {
+            flex-direction: column;
+        }
+        &__wrapper {
+            padding: 15px;
+            margin-left: 0;
+        }
+    }
+    .footer {
+        &__left {
+            img {
+                margin-right: 0;
+                width: 100%;
+            }
+        }
+    }
+}
