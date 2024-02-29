@@ -25,7 +25,7 @@
 
 ## Getting Started
 ```
-git clone https://github.com/SkillyLume/skillylume.github.io.git
+git clone https://github.com/uzyanbaev/cyberpunk.git
 ```
 
 ```
